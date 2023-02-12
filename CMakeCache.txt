@@ -104,7 +104,7 @@ CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=
 CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=/home/robinol/git_projects/onnx_tensorrt/CMakeFiles/pkgRedirects
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=/usr/local
+CMAKE_INSTALL_PREFIX:PATH=/home/robinol/git_projects/onnx_tensorrt/install/tensorrt_cpp_api
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=/usr/bin/ld

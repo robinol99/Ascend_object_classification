@@ -31,7 +31,7 @@ message(${TensorRT_INCLUDE_DIRS})
 find_library(_NVINFER_LIB nvinfer nvonnxparser HINTS ${TensorRT_LIB} PATH_SUFFIXES lib lib64 REQUIRED)
 set(NVINFER_LIB ${_NVINFER_LIB})
 
-add_executable(object_classification_preprocess object_classification_preprocess.cpp utilities/utilities_nvidia.cpp)
+add_executable(object_classification_preprocess src/object_classification_preprocess.cpp src/utilities/utilities_nvidia.cpp)
 target_include_directories(object_classification_preprocess PUBLIC ${OpenCV_INCLUDE_DIRS} ${CUDA_INCLUDE_DIRS} ${TensorRT_INCLUDE_DIRS}
         ${TensorRT_DIR}/samples/common)
 target_link_libraries(object_classification_preprocess PUBLIC nvonnxparser ${NVINFER_LIB} ${OpenCV_LIBS} ${CUDA_LIBRARIES} ${CMAKE_THREAD_LIBS_INIT} ${TensorRT_LIBRARIES})

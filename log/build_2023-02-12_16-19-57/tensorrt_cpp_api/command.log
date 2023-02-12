@@ -1,0 +1,2 @@
+Invoking command in '/home/robinol/git_projects/onnx_tensorrt/build/tensorrt_cpp_api': CONDA_PROMPT_MODIFIER=(base) /home/robinol/anaconda3/bin/cmake /home/robinol/git_projects/onnx_tensorrt -DCMAKE_INSTALL_PREFIX=/home/robinol/git_projects/onnx_tensorrt/install/tensorrt_cpp_api
+Invoked command in '/home/robinol/git_projects/onnx_tensorrt/build/tensorrt_cpp_api' returned '0': CONDA_PROMPT_MODIFIER=(base) /home/robinol/anaconda3/bin/cmake /home/robinol/git_projects/onnx_tensorrt -DCMAKE_INSTALL_PREFIX=/home/robinol/git_projects/onnx_tensorrt/install/tensorrt_cpp_api

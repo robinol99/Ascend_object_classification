@@ -129,53 +129,53 @@ object_classification_preprocess/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/object_classification_preprocess.dir/build.make CMakeFiles/object_classification_preprocess.dir/build
 .PHONY : object_classification_preprocess/fast
 
-object_classification_preprocess.o: object_classification_preprocess.cpp.o
-.PHONY : object_classification_preprocess.o
+src/object_classification_preprocess.o: src/object_classification_preprocess.cpp.o
+.PHONY : src/object_classification_preprocess.o
 
 # target to build an object file
-object_classification_preprocess.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/object_classification_preprocess.dir/build.make CMakeFiles/object_classification_preprocess.dir/object_classification_preprocess.cpp.o
-.PHONY : object_classification_preprocess.cpp.o
+src/object_classification_preprocess.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/object_classification_preprocess.dir/build.make CMakeFiles/object_classification_preprocess.dir/src/object_classification_preprocess.cpp.o
+.PHONY : src/object_classification_preprocess.cpp.o
 
-object_classification_preprocess.i: object_classification_preprocess.cpp.i
-.PHONY : object_classification_preprocess.i
+src/object_classification_preprocess.i: src/object_classification_preprocess.cpp.i
+.PHONY : src/object_classification_preprocess.i
 
 # target to preprocess a source file
-object_classification_preprocess.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/object_classification_preprocess.dir/build.make CMakeFiles/object_classification_preprocess.dir/object_classification_preprocess.cpp.i
-.PHONY : object_classification_preprocess.cpp.i
+src/object_classification_preprocess.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/object_classification_preprocess.dir/build.make CMakeFiles/object_classification_preprocess.dir/src/object_classification_preprocess.cpp.i
+.PHONY : src/object_classification_preprocess.cpp.i
 
-object_classification_preprocess.s: object_classification_preprocess.cpp.s
-.PHONY : object_classification_preprocess.s
+src/object_classification_preprocess.s: src/object_classification_preprocess.cpp.s
+.PHONY : src/object_classification_preprocess.s
 
 # target to generate assembly for a file
-object_classification_preprocess.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/object_classification_preprocess.dir/build.make CMakeFiles/object_classification_preprocess.dir/object_classification_preprocess.cpp.s
-.PHONY : object_classification_preprocess.cpp.s
+src/object_classification_preprocess.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/object_classification_preprocess.dir/build.make CMakeFiles/object_classification_preprocess.dir/src/object_classification_preprocess.cpp.s
+.PHONY : src/object_classification_preprocess.cpp.s
 
-utilities/utilities_nvidia.o: utilities/utilities_nvidia.cpp.o
-.PHONY : utilities/utilities_nvidia.o
+src/utilities/utilities_nvidia.o: src/utilities/utilities_nvidia.cpp.o
+.PHONY : src/utilities/utilities_nvidia.o
 
 # target to build an object file
-utilities/utilities_nvidia.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/object_classification_preprocess.dir/build.make CMakeFiles/object_classification_preprocess.dir/utilities/utilities_nvidia.cpp.o
-.PHONY : utilities/utilities_nvidia.cpp.o
+src/utilities/utilities_nvidia.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/object_classification_preprocess.dir/build.make CMakeFiles/object_classification_preprocess.dir/src/utilities/utilities_nvidia.cpp.o
+.PHONY : src/utilities/utilities_nvidia.cpp.o
 
-utilities/utilities_nvidia.i: utilities/utilities_nvidia.cpp.i
-.PHONY : utilities/utilities_nvidia.i
+src/utilities/utilities_nvidia.i: src/utilities/utilities_nvidia.cpp.i
+.PHONY : src/utilities/utilities_nvidia.i
 
 # target to preprocess a source file
-utilities/utilities_nvidia.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/object_classification_preprocess.dir/build.make CMakeFiles/object_classification_preprocess.dir/utilities/utilities_nvidia.cpp.i
-.PHONY : utilities/utilities_nvidia.cpp.i
+src/utilities/utilities_nvidia.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/object_classification_preprocess.dir/build.make CMakeFiles/object_classification_preprocess.dir/src/utilities/utilities_nvidia.cpp.i
+.PHONY : src/utilities/utilities_nvidia.cpp.i
 
-utilities/utilities_nvidia.s: utilities/utilities_nvidia.cpp.s
-.PHONY : utilities/utilities_nvidia.s
+src/utilities/utilities_nvidia.s: src/utilities/utilities_nvidia.cpp.s
+.PHONY : src/utilities/utilities_nvidia.s
 
 # target to generate assembly for a file
-utilities/utilities_nvidia.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/object_classification_preprocess.dir/build.make CMakeFiles/object_classification_preprocess.dir/utilities/utilities_nvidia.cpp.s
-.PHONY : utilities/utilities_nvidia.cpp.s
+src/utilities/utilities_nvidia.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/object_classification_preprocess.dir/build.make CMakeFiles/object_classification_preprocess.dir/src/utilities/utilities_nvidia.cpp.s
+.PHONY : src/utilities/utilities_nvidia.cpp.s
 
 # Help Target
 help:
@@ -186,12 +186,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... object_classification_preprocess"
-	@echo "... object_classification_preprocess.o"
-	@echo "... object_classification_preprocess.i"
-	@echo "... object_classification_preprocess.s"
-	@echo "... utilities/utilities_nvidia.o"
-	@echo "... utilities/utilities_nvidia.i"
-	@echo "... utilities/utilities_nvidia.s"
+	@echo "... src/object_classification_preprocess.o"
+	@echo "... src/object_classification_preprocess.i"
+	@echo "... src/object_classification_preprocess.s"
+	@echo "... src/utilities/utilities_nvidia.o"
+	@echo "... src/utilities/utilities_nvidia.i"
+	@echo "... src/utilities/utilities_nvidia.s"
 .PHONY : help
 
 

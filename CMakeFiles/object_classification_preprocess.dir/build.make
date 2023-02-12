@@ -69,44 +69,44 @@ include CMakeFiles/object_classification_preprocess.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/object_classification_preprocess.dir/flags.make
 
-CMakeFiles/object_classification_preprocess.dir/object_classification_preprocess.cpp.o: CMakeFiles/object_classification_preprocess.dir/flags.make
-CMakeFiles/object_classification_preprocess.dir/object_classification_preprocess.cpp.o: object_classification_preprocess.cpp
-CMakeFiles/object_classification_preprocess.dir/object_classification_preprocess.cpp.o: CMakeFiles/object_classification_preprocess.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robinol/git_projects/onnx_tensorrt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/object_classification_preprocess.dir/object_classification_preprocess.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/object_classification_preprocess.dir/object_classification_preprocess.cpp.o -MF CMakeFiles/object_classification_preprocess.dir/object_classification_preprocess.cpp.o.d -o CMakeFiles/object_classification_preprocess.dir/object_classification_preprocess.cpp.o -c /home/robinol/git_projects/onnx_tensorrt/object_classification_preprocess.cpp
+CMakeFiles/object_classification_preprocess.dir/src/object_classification_preprocess.cpp.o: CMakeFiles/object_classification_preprocess.dir/flags.make
+CMakeFiles/object_classification_preprocess.dir/src/object_classification_preprocess.cpp.o: src/object_classification_preprocess.cpp
+CMakeFiles/object_classification_preprocess.dir/src/object_classification_preprocess.cpp.o: CMakeFiles/object_classification_preprocess.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robinol/git_projects/onnx_tensorrt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/object_classification_preprocess.dir/src/object_classification_preprocess.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/object_classification_preprocess.dir/src/object_classification_preprocess.cpp.o -MF CMakeFiles/object_classification_preprocess.dir/src/object_classification_preprocess.cpp.o.d -o CMakeFiles/object_classification_preprocess.dir/src/object_classification_preprocess.cpp.o -c /home/robinol/git_projects/onnx_tensorrt/src/object_classification_preprocess.cpp
 
-CMakeFiles/object_classification_preprocess.dir/object_classification_preprocess.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/object_classification_preprocess.dir/object_classification_preprocess.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robinol/git_projects/onnx_tensorrt/object_classification_preprocess.cpp > CMakeFiles/object_classification_preprocess.dir/object_classification_preprocess.cpp.i
+CMakeFiles/object_classification_preprocess.dir/src/object_classification_preprocess.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/object_classification_preprocess.dir/src/object_classification_preprocess.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robinol/git_projects/onnx_tensorrt/src/object_classification_preprocess.cpp > CMakeFiles/object_classification_preprocess.dir/src/object_classification_preprocess.cpp.i
 
-CMakeFiles/object_classification_preprocess.dir/object_classification_preprocess.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/object_classification_preprocess.dir/object_classification_preprocess.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robinol/git_projects/onnx_tensorrt/object_classification_preprocess.cpp -o CMakeFiles/object_classification_preprocess.dir/object_classification_preprocess.cpp.s
+CMakeFiles/object_classification_preprocess.dir/src/object_classification_preprocess.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/object_classification_preprocess.dir/src/object_classification_preprocess.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robinol/git_projects/onnx_tensorrt/src/object_classification_preprocess.cpp -o CMakeFiles/object_classification_preprocess.dir/src/object_classification_preprocess.cpp.s
 
-CMakeFiles/object_classification_preprocess.dir/utilities/utilities_nvidia.cpp.o: CMakeFiles/object_classification_preprocess.dir/flags.make
-CMakeFiles/object_classification_preprocess.dir/utilities/utilities_nvidia.cpp.o: utilities/utilities_nvidia.cpp
-CMakeFiles/object_classification_preprocess.dir/utilities/utilities_nvidia.cpp.o: CMakeFiles/object_classification_preprocess.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robinol/git_projects/onnx_tensorrt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/object_classification_preprocess.dir/utilities/utilities_nvidia.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/object_classification_preprocess.dir/utilities/utilities_nvidia.cpp.o -MF CMakeFiles/object_classification_preprocess.dir/utilities/utilities_nvidia.cpp.o.d -o CMakeFiles/object_classification_preprocess.dir/utilities/utilities_nvidia.cpp.o -c /home/robinol/git_projects/onnx_tensorrt/utilities/utilities_nvidia.cpp
+CMakeFiles/object_classification_preprocess.dir/src/utilities/utilities_nvidia.cpp.o: CMakeFiles/object_classification_preprocess.dir/flags.make
+CMakeFiles/object_classification_preprocess.dir/src/utilities/utilities_nvidia.cpp.o: src/utilities/utilities_nvidia.cpp
+CMakeFiles/object_classification_preprocess.dir/src/utilities/utilities_nvidia.cpp.o: CMakeFiles/object_classification_preprocess.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robinol/git_projects/onnx_tensorrt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/object_classification_preprocess.dir/src/utilities/utilities_nvidia.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/object_classification_preprocess.dir/src/utilities/utilities_nvidia.cpp.o -MF CMakeFiles/object_classification_preprocess.dir/src/utilities/utilities_nvidia.cpp.o.d -o CMakeFiles/object_classification_preprocess.dir/src/utilities/utilities_nvidia.cpp.o -c /home/robinol/git_projects/onnx_tensorrt/src/utilities/utilities_nvidia.cpp
 
-CMakeFiles/object_classification_preprocess.dir/utilities/utilities_nvidia.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/object_classification_preprocess.dir/utilities/utilities_nvidia.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robinol/git_projects/onnx_tensorrt/utilities/utilities_nvidia.cpp > CMakeFiles/object_classification_preprocess.dir/utilities/utilities_nvidia.cpp.i
+CMakeFiles/object_classification_preprocess.dir/src/utilities/utilities_nvidia.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/object_classification_preprocess.dir/src/utilities/utilities_nvidia.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robinol/git_projects/onnx_tensorrt/src/utilities/utilities_nvidia.cpp > CMakeFiles/object_classification_preprocess.dir/src/utilities/utilities_nvidia.cpp.i
 
-CMakeFiles/object_classification_preprocess.dir/utilities/utilities_nvidia.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/object_classification_preprocess.dir/utilities/utilities_nvidia.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robinol/git_projects/onnx_tensorrt/utilities/utilities_nvidia.cpp -o CMakeFiles/object_classification_preprocess.dir/utilities/utilities_nvidia.cpp.s
+CMakeFiles/object_classification_preprocess.dir/src/utilities/utilities_nvidia.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/object_classification_preprocess.dir/src/utilities/utilities_nvidia.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robinol/git_projects/onnx_tensorrt/src/utilities/utilities_nvidia.cpp -o CMakeFiles/object_classification_preprocess.dir/src/utilities/utilities_nvidia.cpp.s
 
 # Object files for target object_classification_preprocess
 object_classification_preprocess_OBJECTS = \
-"CMakeFiles/object_classification_preprocess.dir/object_classification_preprocess.cpp.o" \
-"CMakeFiles/object_classification_preprocess.dir/utilities/utilities_nvidia.cpp.o"
+"CMakeFiles/object_classification_preprocess.dir/src/object_classification_preprocess.cpp.o" \
+"CMakeFiles/object_classification_preprocess.dir/src/utilities/utilities_nvidia.cpp.o"
 
 # External object files for target object_classification_preprocess
 object_classification_preprocess_EXTERNAL_OBJECTS =
 
-object_classification_preprocess: CMakeFiles/object_classification_preprocess.dir/object_classification_preprocess.cpp.o
-object_classification_preprocess: CMakeFiles/object_classification_preprocess.dir/utilities/utilities_nvidia.cpp.o
+object_classification_preprocess: CMakeFiles/object_classification_preprocess.dir/src/object_classification_preprocess.cpp.o
+object_classification_preprocess: CMakeFiles/object_classification_preprocess.dir/src/utilities/utilities_nvidia.cpp.o
 object_classification_preprocess: CMakeFiles/object_classification_preprocess.dir/build.make
 object_classification_preprocess: /usr/lib/x86_64-linux-gnu/libnvinfer.so
 object_classification_preprocess: /usr/local/lib/libopencv_gapi.so.4.7.0

@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/object_classification_preprocess.dir/object_classification_preprocess.cpp.o"
-  "CMakeFiles/object_classification_preprocess.dir/object_classification_preprocess.cpp.o.d"
-  "CMakeFiles/object_classification_preprocess.dir/utilities/utilities_nvidia.cpp.o"
-  "CMakeFiles/object_classification_preprocess.dir/utilities/utilities_nvidia.cpp.o.d"
+  "CMakeFiles/object_classification_preprocess.dir/src/object_classification_preprocess.cpp.o"
+  "CMakeFiles/object_classification_preprocess.dir/src/object_classification_preprocess.cpp.o.d"
+  "CMakeFiles/object_classification_preprocess.dir/src/utilities/utilities_nvidia.cpp.o"
+  "CMakeFiles/object_classification_preprocess.dir/src/utilities/utilities_nvidia.cpp.o.d"
   "object_classification_preprocess"
   "object_classification_preprocess.pdb"
 )
