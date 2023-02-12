@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/robinol/git_projects/onnx_tensorrt",
+  "command": "/usr/bin/c++  -I/usr/local/cuda/include -I/home/robinol/git_projects/onnx_tensorrt/TensorRT_DIR-NOTFOUND/samples/common -isystem /usr/local/include/opencv4  -Wall -Ofast -DNDEBUG -std=gnu++17 -o CMakeFiles/object_classification_preprocess.dir/object_classification_preprocess.cpp.o -c /home/robinol/git_projects/onnx_tensorrt/object_classification_preprocess.cpp",
+  "file": "/home/robinol/git_projects/onnx_tensorrt/object_classification_preprocess.cpp"
+},
+{
+  "directory": "/home/robinol/git_projects/onnx_tensorrt",
+  "command": "/usr/bin/c++  -I/usr/local/cuda/include -I/home/robinol/git_projects/onnx_tensorrt/TensorRT_DIR-NOTFOUND/samples/common -isystem /usr/local/include/opencv4  -Wall -Ofast -DNDEBUG -std=gnu++17 -o CMakeFiles/object_classification_preprocess.dir/utilities/utilities_nvidia.cpp.o -c /home/robinol/git_projects/onnx_tensorrt/utilities/utilities_nvidia.cpp",
+  "file": "/home/robinol/git_projects/onnx_tensorrt/utilities/utilities_nvidia.cpp"
+}
+]
