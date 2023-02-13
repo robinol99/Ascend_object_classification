@@ -57,4 +57,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/object_classification_preprocess.dir/DependInfo.cmake"
+  "CMakeFiles/inference_test.dir/DependInfo.cmake"
   )

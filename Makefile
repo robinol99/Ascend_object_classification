@@ -129,6 +129,43 @@ object_classification_preprocess/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/object_classification_preprocess.dir/build.make CMakeFiles/object_classification_preprocess.dir/build
 .PHONY : object_classification_preprocess/fast
 
+#=============================================================================
+# Target rules for targets named inference_test
+
+# Build rule for target.
+inference_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 inference_test
+.PHONY : inference_test
+
+# fast build rule for target.
+inference_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inference_test.dir/build.make CMakeFiles/inference_test.dir/build
+.PHONY : inference_test/fast
+
+src/inference_test.o: src/inference_test.cpp.o
+.PHONY : src/inference_test.o
+
+# target to build an object file
+src/inference_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inference_test.dir/build.make CMakeFiles/inference_test.dir/src/inference_test.cpp.o
+.PHONY : src/inference_test.cpp.o
+
+src/inference_test.i: src/inference_test.cpp.i
+.PHONY : src/inference_test.i
+
+# target to preprocess a source file
+src/inference_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inference_test.dir/build.make CMakeFiles/inference_test.dir/src/inference_test.cpp.i
+.PHONY : src/inference_test.cpp.i
+
+src/inference_test.s: src/inference_test.cpp.s
+.PHONY : src/inference_test.s
+
+# target to generate assembly for a file
+src/inference_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inference_test.dir/build.make CMakeFiles/inference_test.dir/src/inference_test.cpp.s
+.PHONY : src/inference_test.cpp.s
+
 src/object_classification_preprocess.o: src/object_classification_preprocess.cpp.o
 .PHONY : src/object_classification_preprocess.o
 
@@ -159,6 +196,7 @@ src/utilities/utilities_nvidia.o: src/utilities/utilities_nvidia.cpp.o
 # target to build an object file
 src/utilities/utilities_nvidia.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/object_classification_preprocess.dir/build.make CMakeFiles/object_classification_preprocess.dir/src/utilities/utilities_nvidia.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inference_test.dir/build.make CMakeFiles/inference_test.dir/src/utilities/utilities_nvidia.cpp.o
 .PHONY : src/utilities/utilities_nvidia.cpp.o
 
 src/utilities/utilities_nvidia.i: src/utilities/utilities_nvidia.cpp.i
@@ -167,6 +205,7 @@ src/utilities/utilities_nvidia.i: src/utilities/utilities_nvidia.cpp.i
 # target to preprocess a source file
 src/utilities/utilities_nvidia.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/object_classification_preprocess.dir/build.make CMakeFiles/object_classification_preprocess.dir/src/utilities/utilities_nvidia.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inference_test.dir/build.make CMakeFiles/inference_test.dir/src/utilities/utilities_nvidia.cpp.i
 .PHONY : src/utilities/utilities_nvidia.cpp.i
 
 src/utilities/utilities_nvidia.s: src/utilities/utilities_nvidia.cpp.s
@@ -175,6 +214,7 @@ src/utilities/utilities_nvidia.s: src/utilities/utilities_nvidia.cpp.s
 # target to generate assembly for a file
 src/utilities/utilities_nvidia.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/object_classification_preprocess.dir/build.make CMakeFiles/object_classification_preprocess.dir/src/utilities/utilities_nvidia.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inference_test.dir/build.make CMakeFiles/inference_test.dir/src/utilities/utilities_nvidia.cpp.s
 .PHONY : src/utilities/utilities_nvidia.cpp.s
 
 # Help Target
@@ -185,7 +225,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... inference_test"
 	@echo "... object_classification_preprocess"
+	@echo "... src/inference_test.o"
+	@echo "... src/inference_test.i"
+	@echo "... src/inference_test.s"
 	@echo "... src/object_classification_preprocess.o"
 	@echo "... src/object_classification_preprocess.i"
 	@echo "... src/object_classification_preprocess.s"

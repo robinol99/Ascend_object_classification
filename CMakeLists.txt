@@ -35,3 +35,8 @@ add_executable(object_classification_preprocess src/object_classification_prepro
 target_include_directories(object_classification_preprocess PUBLIC ${OpenCV_INCLUDE_DIRS} ${CUDA_INCLUDE_DIRS} ${TensorRT_INCLUDE_DIRS}
         ${TensorRT_DIR}/samples/common)
 target_link_libraries(object_classification_preprocess PUBLIC nvonnxparser ${NVINFER_LIB} ${OpenCV_LIBS} ${CUDA_LIBRARIES} ${CMAKE_THREAD_LIBS_INIT} ${TensorRT_LIBRARIES})
+
+add_executable(inference_test src/inference_test.cpp src/utilities/utilities_nvidia.cpp)
+target_include_directories(inference_test PUBLIC ${OpenCV_INCLUDE_DIRS} ${CUDA_INCLUDE_DIRS} ${TensorRT_INCLUDE_DIRS}
+        ${TensorRT_DIR}/samples/common)
+target_link_libraries(inference_test PUBLIC nvonnxparser ${NVINFER_LIB} ${OpenCV_LIBS} ${CUDA_LIBRARIES} ${CMAKE_THREAD_LIBS_INIT} ${TensorRT_LIBRARIES})

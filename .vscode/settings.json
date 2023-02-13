@@ -74,6 +74,7 @@
         "__nullptr": "cpp",
         "shared_mutex": "cpp",
         "__config": "cpp",
-        "locale": "cpp"
+        "locale": "cpp",
+        "*.ipp": "cpp"
     }
 }

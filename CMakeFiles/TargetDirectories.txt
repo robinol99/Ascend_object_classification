@@ -1,3 +1,4 @@
 /home/robinol/git_projects/onnx_tensorrt/CMakeFiles/object_classification_preprocess.dir
+/home/robinol/git_projects/onnx_tensorrt/CMakeFiles/inference_test.dir
 /home/robinol/git_projects/onnx_tensorrt/CMakeFiles/edit_cache.dir
 /home/robinol/git_projects/onnx_tensorrt/CMakeFiles/rebuild_cache.dir

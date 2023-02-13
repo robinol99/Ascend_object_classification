@@ -8,5 +8,15 @@
   "directory": "/home/robinol/git_projects/onnx_tensorrt",
   "command": "/usr/bin/c++  -I/usr/local/cuda/include -I/home/robinol/git_projects/onnx_tensorrt/TensorRT_DIR-NOTFOUND/samples/common -isystem /usr/local/include/opencv4  -Wall -Ofast -DNDEBUG -std=gnu++17 -o CMakeFiles/object_classification_preprocess.dir/src/utilities/utilities_nvidia.cpp.o -c /home/robinol/git_projects/onnx_tensorrt/src/utilities/utilities_nvidia.cpp",
   "file": "/home/robinol/git_projects/onnx_tensorrt/src/utilities/utilities_nvidia.cpp"
+},
+{
+  "directory": "/home/robinol/git_projects/onnx_tensorrt",
+  "command": "/usr/bin/c++  -I/usr/local/cuda/include -I/home/robinol/git_projects/onnx_tensorrt/TensorRT_DIR-NOTFOUND/samples/common -isystem /usr/local/include/opencv4  -Wall -Ofast -DNDEBUG -std=gnu++17 -o CMakeFiles/inference_test.dir/src/inference_test.cpp.o -c /home/robinol/git_projects/onnx_tensorrt/src/inference_test.cpp",
+  "file": "/home/robinol/git_projects/onnx_tensorrt/src/inference_test.cpp"
+},
+{
+  "directory": "/home/robinol/git_projects/onnx_tensorrt",
+  "command": "/usr/bin/c++  -I/usr/local/cuda/include -I/home/robinol/git_projects/onnx_tensorrt/TensorRT_DIR-NOTFOUND/samples/common -isystem /usr/local/include/opencv4  -Wall -Ofast -DNDEBUG -std=gnu++17 -o CMakeFiles/inference_test.dir/src/utilities/utilities_nvidia.cpp.o -c /home/robinol/git_projects/onnx_tensorrt/src/utilities/utilities_nvidia.cpp",
+  "file": "/home/robinol/git_projects/onnx_tensorrt/src/utilities/utilities_nvidia.cpp"
 }
 ]
